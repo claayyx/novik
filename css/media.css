@@ -59,9 +59,25 @@
   }
 }
 @media (max-width: 375px) {
+  #about .about--text p {
+    width: 359px;
+  }
   #hero .hero img {
-    width: 319px;
-    height: 272px;
+    width: 337px;
+    height: 197px;
+  }
+}
+@media (max-width: 414px) {
+  #about .about--text p {
+    width: 403px;
+  }
+  #port .port--text img {
+    width: 370px;
+    height: 227px;
+  }
+  #port .port--block img {
+    width: 370px;
+    height: 227px;
   }
 }
 
